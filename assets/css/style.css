@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Santio Bold;
+    src: url(../fonts/Santio\ Bold.otf);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  body{
+    margin:0;
+}
+main div{
+    text-align:right;
+    padding-right: 7%;
+}
+main div img{
+    height:2%;
+    width:2%;
+    margin:0;
+    padding-top: 2%;
+}
+main div h1{
+    font-size:15px;
+    text-decoration: underline #e7bc0e;
+    margin:0;
+    color:#fff;
+    padding-top: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+main div img,h1{
+    display: inline;
+    padding-right:3%;
+}  
+main{
+    background: rgba(0,0,0,.9) url(../img/cleo-topper.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+}
+main{
+    margin: 0;
+}
+main h2{
+    margin: 0;
+    padding-left: 5%;
+    color: white;
+    font-size:50px;
+    padding-top: 10%;
+    font-family: Santio Bold;
+}
+main h3{
+    padding-top: 5%;
+    color: #e7bc0e;
+    font-size: 20px;
+    padding-left: 5%;
+    font-family: 'Mr Dafoe', cursive;
+}
+main section:first-of-type p{
+    color: #6bc1a3;
+    padding-left: 15%;
+    font-size: 20px;
+    padding-bottom: 30%;
+    padding-top: 30%;
+    font-family: Santio Bold;
+    line-height: 35px;
+}
+#women{
+    color:white;
+    background-color: #3f3c3c;
+}
+section:nth-child(5) img{
+    height:10%;
+    width:10%;
+    padding-left: 7%;
+}
+section:nth-child(5) h2{
+    padding-left: 7%;
+    color: #e7bc0e;
+    font-size: 80px;
+    font-family: Santio Bold;
+}
+section:nth-child(5) h3{
+    padding-left: 7%;
+    color: #e7bc0e;
+    margin:0;
+    font-size: 20px;
+    padding-top: 0;
+    font-family: Santio Bold;
+}
+#US{
+    color: white;
+    background-color: #3f3c3c;
+}
+section:nth-child(6) img{
+    height:10%;
+    width:10%;
+    padding-left: 7%;
+    padding-top: 15%;
+}
+section:nth-child(6) h2{
+    padding-left: 7%;
+    color: #cb91b6;
+    margin:0;
+    font-size: 20px;
+    padding-top: 5%;
+    font-family: Santio Bold;
+}
+section:nth-child(6) h3{
+    padding-left: 7%;
+    color: #cb91b6;
+    font-size: 80px;
+    padding-top: 0;
+    margin:0;
+    font-family: Santio Bold;
+}
+#paid{
+    color:white;
+    background-color: #3f3c3c;
+}
+section:nth-child(7) img{
+    height:10%;
+    width:10%;
+    padding-left: 7%;
+    padding-top: 15%;
+}
+section:nth-child(7) h2{
+    padding-left: 7%;
+    color: #6bc1a3;
+    font-size: 80px;
+    font-family: Santio Bold;
+}
+section:nth-child(7) h3{
+    padding-left: 7%;
+    color: #6bc1a3;
+    margin:0;
+    font-size: 20px;
+    padding-top: 0;
+    font-family: Santio Bold;
+}
+#health{
+    color:white;
+    background-color: #3f3c3c;
+}
+section:nth-child(7) p{
+    color: #7eb8e1;
+    font-size: 20px;
+    text-align:justify;
+    padding-left: 25%;
+    margin: 0;
+    padding-top: 10%;
+    font-family: Santio Bold;
+    line-height: 35px;
+    padding-bottom: 10%;
+}
+#the{
+    color:white;
+    background-color: #3f3c3c;
+}
+article section:first-of-type{
+    height: 100vh;
+    background: url(../img/kid.png) center/cover no-repeat, url(../img/see.png) center no-repeat; 
+}
+article section:nth-child(2){
+    background-color: #000;
+}
+article section:nth-child(2) h2{
+    color: white;
+    font-size:40px;
+    margin: 0;
+    padding-left: 7%;
+    padding-top: 30%;
+    padding-bottom: 5%;
+    font-family: Santio Bold;
+    line-height: 45px;
+}
+article section:nth-child(2) div{
+    border: white solid 1px;
+    color:white;
+    width: 10%;
+    text-align: center;
+    margin:0;
+    margin-left: 7%;
+    font-family: 'Roboto', sans-serif;
+    padding:5px;
+}   
+article section:nth-child(3){
+      background-color: #000;
+      text-align: center;
+      font-size:10px;
+      padding-top: 15%;
+      padding-bottom: 3%;
+}
+article section:nth-child(3) p{
+    color:white;
+}
+
+article section:nth-child(3) a{
+    color: #6bc1a3;
+    text-decoration: none;
+}
+article section:nth-child(3) p,a{
+    display: inline;
+}
+article section:nth-child(2) div:hover{
+    /* border: 1px solid; */
+    /* padding: 5px; */
+    box-shadow: 5px 5px white;
+}
+article section:nth-child(3) a:hover{
+    text-decoration:underline;
+}
